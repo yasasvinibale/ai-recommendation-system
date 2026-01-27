@@ -1,0 +1,19 @@
+{
+  "name": "ai-recommendation-system",
+  "version": "1.0.0",
+  "description": "AI Enabled Recommendation Engine for an E-commerce Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd frontend && npm start",
+    "server": "cd backend && python app.py",
+    "build": "cd frontend && npm run build",
+    "install-deps": "npm install && cd frontend && npm install && cd ../backend && pip install -r requirements.txt"
+  },
+  "keywords": ["recommendation", "machine-learning", "react", "python", "fastapi"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
