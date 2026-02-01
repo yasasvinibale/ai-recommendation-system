@@ -55,14 +55,12 @@ function App() {
             Backend API Unavailable
           </h1>
           <p className="text-gray-600 mb-6">
-            Please make sure the backend server is running on localhost:8000
+            Unable to connect to the backend API. Please try again later.
           </p>
           <div className="bg-gray-100 rounded-lg p-4 text-left">
-            <p className="font-medium text-gray-900 mb-2">To start the backend:</p>
+            <p className="font-medium text-gray-900 mb-2">Backend service:</p>
             <code className="text-sm bg-gray-800 text-green-400 p-2 rounded block">
-              cd backend<br />
-              pip install -r requirements.txt<br />
-              python app.py
+              https://ai-recommendation-system-viv.onrender.com
             </code>
           </div>
         </div>
